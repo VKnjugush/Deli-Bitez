@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-image: linear-gradient(to right, #6f8d5b,lightblue , #ff000d);
-    height: 110vh;
+    height: 160vh;
     width: 100%;
 }
 h1{
@@ -82,4 +82,64 @@ img{
    /* border-radius: 5rem; */
    /* box-shadow: #6f8d5b 0px 0px 10px 10px; */
 
+}
+.contact{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 610px;
+    display: block;
+    padding: 20px 15px;
+    background-color: #d3363e;
+    box-shadow: #6f8d5b86  10px 10px 10px;
+    border-radius: 5rem;
+    max-width: 200px;
+    margin-bottom: 202px;
+    transition: background-color 2.3s ;
+    transition: box-shadow 2.3s;
+    transition: background-color 1.9s ;
+
+
+}
+
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.contact:hover{
+    background-color: #4e8b6a;
+    box-shadow: #d3363e 10px 10px 10px;
+    animation:bounce 2.5s forwards;
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    h2{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .contact{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    img{
+        width: 50px;
+        height: 25px;
+    }
 }
