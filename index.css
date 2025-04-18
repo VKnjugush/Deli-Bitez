@@ -2,7 +2,11 @@ body{
     margin: 0;
     /* background-image: linear-gradient(to right, #6f8d5b,lightblue , #ff000d); */
     background-image: url('Images/wallhaven-0p56yj_1920x1080.png');
-    height: 160vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
     width: 100%;
 }
 h1{
@@ -108,7 +112,7 @@ img{
     font-size: 15px;
     color: white;
     margin-top: 20px;
-    margin-left: 610px;
+    margin-left: 50.9rem;
     display: block;
     padding: 20px 15px;
     background-color: #d3363e;
